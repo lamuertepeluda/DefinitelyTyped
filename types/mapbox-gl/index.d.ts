@@ -44,6 +44,8 @@ declare namespace mapboxgl {
         getBounds(): mapboxgl.LngLatBounds;
 
         setMaxBounds(lnglatbounds?: LngLatBoundsLike): this;
+        
+        getMaxBounds(): LngLatBoundsLike;
 
         setMinZoom(minZoom?: number): this;
 
